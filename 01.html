@@ -1,0 +1,21 @@
+<script>
+
+//Entrada
+
+let variavel1 = Number(prompt(`Informe um número inteiro: `));
+let variavel2 = Number(prompt(`Informe outro número inteiro: `));
+
+//Processamento
+variavelReserva = variavel1;
+variavel1 = variavel2;
+variavel2 = variavelReserva;
+
+
+if (variavel1 == variavel2) {
+    alert(`É igual e não necessita ser feito a troca`);
+
+} else {
+    alert(`A primeira  variavel era ${variavel1}, agora ficou ${variavelReserva}
+    A segunda variavel era ${variavel2}, agora ficou ${variavel1} `);
+}
+</script>

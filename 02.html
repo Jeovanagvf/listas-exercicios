@@ -1,0 +1,32 @@
+<script>
+
+
+//entrada
+
+const A = Number(prompt(`Informe um número: `));
+const B = Number(prompt(`Informe um número: `));
+const C = Number(prompt(`Informe um número: `));
+
+//Processamento
+
+if ((A>B)&&(A>C)&&(B>C)) {
+    alert(`A ordem de decrescente é ${A},${B},${C}`);
+
+} else if ((A>B)&&(A>C)&&(C>B)) {
+    alert(`A ordem de decrescente é ${A},${C},${B}`);
+
+} else if ((B>A)&&(B>C)&&(A>C)) {
+    alert(`A ordem de decrescente é ${B},${A},${C}`);
+
+} else if ((B>A)&&(B>C)&&(C>A)) {
+    alert(`A ordem de decrescente é ${B},${C},${A}`);
+
+} else if ((C>A)&&(C>B)&&(A>B)) {
+    alert(`A ordem de decrescente é ${C},${A},${B}`);
+
+} else if ((C>A)&&(C>B)&&(B>A)) {
+    alert(`A ordem de decrescente é ${C},${B},${A}`);
+
+}
+
+</script>

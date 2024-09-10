@@ -1,0 +1,22 @@
+<script>
+
+
+//Entrada
+
+const nota_little_brother1 = Number(prompt(`Informe sua nota: `));
+const nota_little_brother2 = Number(prompt(`Informe sua nota: `));
+const nota_big_brother = Number(prompt(`Informe sua nota big brother: `));
+
+//Processamento
+
+const acrescimo = nota_big_brother + 0.25;
+
+if (nota_little_brother2 > nota_little_brother1) {
+    alert(`A nota do big brother terá um acréscimo pois o resultado foi positivo`);
+    alert(`A nota do big brother será ${acrescimo}`);
+    
+} else {
+    alert(`Não terá acréscimo na nota pois o resultado foi negativo`);
+}
+
+</script>
